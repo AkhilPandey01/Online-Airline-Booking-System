@@ -282,7 +282,7 @@ class ticket : public registration, public Details {
             string destination = "";
             ofstream outf("records.txt");
 
-            outf << " XYZ Airlines " << endl;
+            outf << " Air India Airlines " << endl;
             outf << " Ticket " << endl;
             outf << endl;
 
@@ -328,7 +328,7 @@ void mainMenu() {
     int schoice;
     int back;
 
-    cout << "\t               XYZ Airlines \n" << endl;
+    cout << "\t               Air India Airlines \n" << endl;
     cout << "\t______________Main Menu__________________" << endl;
 
     cout << "\t|\t\t\t\t       |" << endl;
